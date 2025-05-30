@@ -1,8 +1,16 @@
 .card__paragraph {
   margin: 0;
-  font-size: 16;
+  width: 389px;
+  height: 63px;
+  font-size: 16px;
   font-weight: 400;
   color: rgba(50, 53, 44, 1);
   margin: 0 16px 0;
   padding-bottom: 28px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 3em;
 }
