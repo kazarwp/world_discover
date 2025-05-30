@@ -1,5 +1,3 @@
-import tesla from "../images/tesla.svg";
-
 export const Card = ({img, title, text}: {img: string, title: string, text: string}) => {
   return (
     <div className="card">

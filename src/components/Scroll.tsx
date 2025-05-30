@@ -8,7 +8,7 @@ import tesla from '../images/tesla.svg'
 import raketa from '../images/racketa.svg'
 import bomb from '../images/bomb.svg'
 import lodka from '../images/lodka.svg'
-import {teslaTitle, lodkaTitle, raketTitle, bombTitle, teslaText, raketText, bombText, lodkaText} from '../db'
+import {teslaTitle, lodkaTitle, raketTitle, bombTitle, teslaText, bombText, lodkaText} from '../db'
 
 export const Scroll = () => {
   const CARD_WIDTH = 421;
@@ -19,7 +19,7 @@ export const Scroll = () => {
   const activeIndex = Math.abs(scrollWindow / CARD_WIDTH);
 
   const handleScrollRight = () => {
-    setScrollWindow(current => Math.max(current - CARD_WIDTH, -CARD_WIDTH * (TOTAL_CARDS)));
+    setScrollWindow(current => Math.max(current - CARD_WIDTH, -CARD_WIDTH * (TOTAL_CARDS-1)));
   };
 
   const handleScrollLeft = () => {
