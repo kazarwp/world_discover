@@ -1,0 +1,5 @@
+.scroll__items {
+  display: flex;
+  gap: 16px;
+  transition-duration: 0.7s;
+}

@@ -1,0 +1,8 @@
+.card__paragraph {
+  margin: 0;
+  font-size: 16;
+  font-weight: 400;
+  color: rgba(50, 53, 44, 1);
+  margin: 0 16px 0;
+  padding-bottom: 28px;
+}

@@ -1,0 +1,7 @@
+.scroll__window {
+  width: 1434px;
+  height: 360px;
+  /* background-color: aqua; */
+  margin-left: 36px;
+  overflow: hidden;
+}

@@ -1,0 +1,12 @@
+.bar-menu__item {
+  width: 53px;
+  height: 6px;
+  background: rgba(223, 229, 211, 1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.bar-menu__item.active {
+  background: rgba(204, 209, 195, 1);
+}

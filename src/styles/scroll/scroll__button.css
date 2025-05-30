@@ -1,0 +1,8 @@
+.scroll__button {
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.scroll__button:hover {
+  background-color: rgba(183, 189, 171, 1);
+}
